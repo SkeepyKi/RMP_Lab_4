@@ -6,18 +6,11 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <EditText
-        android:id="@+id/editName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Введите ваше имя"
-        android:inputType="text" />
-
-    <Button
-        android:id="@+id/btnSend"
+    <TextView
+        android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Отправить" />
+        android:textSize="24sp"
+        android:text="Здесь будет приветствие" />
 
 </LinearLayout>
